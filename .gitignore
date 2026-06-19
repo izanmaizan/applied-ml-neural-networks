@@ -1,0 +1,26 @@
+# Virtual environment (jangan dipush — besar & spesifik mesin)
+venv/
+nn-dashboard/venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.claude/
+
+# Log TensorBoard
+logs/
+nn-dashboard/logs/
+
+# Dataset besar >100 MB (diunduh otomatis oleh train.py & notebook)
+creditcard.csv
+nn-dashboard/data/creditcard.csv
+
+# Materi berhak cipta / file pribadi besar
+*.pdf
+*.pptx
+
+# Streamlit secrets
+nn-dashboard/.streamlit/secrets.toml
